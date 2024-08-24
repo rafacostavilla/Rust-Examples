@@ -1,0 +1,1 @@
+C:\Users\rafae\Downloads\Applications\Partly\Rust\ Examples\rust_projects\struct_examples\target\debug\struct_examples.exe: C:\Users\rafae\Downloads\Applications\Partly\Rust\ Examples\rust_projects\struct_examples\src\main.rs

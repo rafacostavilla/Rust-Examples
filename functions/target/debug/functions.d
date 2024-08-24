@@ -1,0 +1,1 @@
+C:\Users\rafae\Downloads\Applications\Partly\Rust\ Examples\rust_projects\functions\target\debug\functions.exe: C:\Users\rafae\Downloads\Applications\Partly\Rust\ Examples\rust_projects\functions\src\main.rs
