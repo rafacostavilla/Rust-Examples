@@ -8,6 +8,10 @@ struct User {
 struct Color(i32, i32, i32);
 struct Point(i32, i32, i32);
 
+//Unit-Like Structs without any fields
+//We can still use it without data to implement a behaviour
+struct AlwaysEqual;
+
 fn build_user (email: String, username: String) -> User{
     User { 
         active: true,
@@ -43,4 +47,7 @@ fn main(){
 
     println!("{}", black.0);
     println!("{}", origin.0);
+
+    //We don't need parentheses or curly braces
+    let subject = AlwaysEqual;
 }
