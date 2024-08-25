@@ -27,5 +27,11 @@ fn main(){
 
     let user2 = build_user(String::from("outro@outro.com"), String::from("outro"));
     println!("{}", user2.email);
-    println!("{}", user2.email);
+
+    let user3 = User{
+        active: user1.active,
+        username: user1.username,
+        email: String::from("another@example.com"),
+        sign_in_count: user1.sign_in_count,
+    };
 }
