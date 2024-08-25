@@ -28,8 +28,10 @@ fn main(){
     let user2 = build_user(String::from("outro@outro.com"), String::from("outro"));
     println!("{}", user2.email);
 
-    let user3 = User{
+    let _user3 = User{
         email: String::from("another@example.com"),
         ..user1
     };
+    //We cannot use the username from user1 because it has moved when we created user3 from the user1's username
+    // println!("{}", user1.username);
 }
