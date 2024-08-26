@@ -17,7 +17,9 @@ impl Rectangle{
         self.width > rectangle.width && self.height > rectangle.height
     }
 
-    fn square(size: u32) -> Rectangle{
+    //Associated function: To call it use Rectangle::square(3), by instance
+    //Associated functions don't need an instance of the type to work with
+    fn square(size: u32) -> Self{
         Rectangle{
             width: size,
             height: size,
