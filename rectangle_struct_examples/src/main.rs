@@ -5,6 +5,12 @@ struct Rectangle{
 }
 
 impl Rectangle{
+    fn can_hold(&self, rectangle: &Rectangle) -> bool{
+        self.width > rectangle.width && self.height > rectangle.height
+    }
+}
+
+impl Rectangle{
     fn area(&self) -> u32{
         self.height*self.width
     }
@@ -13,12 +19,9 @@ impl Rectangle{
         self.width > 0
     }
 
-    fn can_hold(&self, rectangle: &Rectangle) -> bool{
-        self.width > rectangle.width && self.height > rectangle.height
-    }
-
     //Associated function: To call it use Rectangle::square(3), by instance
     //Associated functions don't need an instance of the type to work with
+    //All the methods are associated functions, but not always the opposite
     fn square(size: u32) -> Self{
         Rectangle{
             width: size,
