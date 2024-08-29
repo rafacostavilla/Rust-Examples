@@ -28,4 +28,5 @@ fn main() {
 
     let message = Message::Write(String::from("hello"));
     message.call();
+    
 }
