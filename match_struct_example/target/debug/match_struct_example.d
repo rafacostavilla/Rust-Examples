@@ -1,0 +1,1 @@
+C:\Users\rafae\Downloads\Applications\Partly\Rust\ Examples\rust_projects\match_struct_example\target\debug\match_struct_example.exe: C:\Users\rafae\Downloads\Applications\Partly\Rust\ Examples\rust_projects\match_struct_example\src\main.rs

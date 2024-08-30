@@ -1,0 +1,1 @@
+C:\Users\rafae\Downloads\Applications\Partly\Rust\ Examples\rust_projects\option_enum_example\target\debug\option_enum_example.exe: C:\Users\rafae\Downloads\Applications\Partly\Rust\ Examples\rust_projects\option_enum_example\src\main.rs
